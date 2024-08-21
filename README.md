@@ -35,7 +35,8 @@ This application is designed for practicing the deployment process for Java Spri
 ```bash
     mvn clean package
 
-This command performs the following actions:
 
-.. clean: Removes previously compiled code and build artifacts to ensure a fresh build.
-.. package: Compiles the code, runs tests, and packages the application into a JAR or WAR file as specified in the pom.xml file.
+   This command performs the following actions:
+
+ * clean: Removes previously compiled code and build artifacts to ensure a fresh build.
+ * package: Compiles the code, runs tests, and packages the application into a JAR or WAR file as specified in the pom.xml file.
