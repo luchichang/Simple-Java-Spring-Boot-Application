@@ -9,8 +9,7 @@ this Application is for practising the Deployment process for Java Spring Boot B
   run  " mvn clean Package " , this command will remove the previously compiled code and build artifacts. ensures fresh build, then compile the code execute tests and package the code into jar or war file which will be mentioned in the POM(Project Object Model).xml file in the maven configuration.
   now created .jar file will be in the target directory now run this command to execute the application
 
-  java -jar target/spring-boot-web.jar , this command will execute the jar file and now our application is running in the localhost:8080 <a>![image](https://github.com/user-attachments/assets/53aef5f0-5569-49ba-9bd9-498dc9d55a59)
-<a/>
+  java -jar target/spring-boot-web.jar , this command will execute the jar file and now our application is running in the localhost:8080 
 
 # Simple-Java-Spring-Boot-Application
 
@@ -34,9 +33,24 @@ This application is designed for practicing the deployment process for Java Spri
 
 ```bash
     mvn clean package
-
-
+```
    This command performs the following actions:
+       * clean: Removes previously compiled code and build artifacts to ensure a fresh build.
+       * package: Compiles the code, runs tests, and packages the application into a JAR or WAR file as specified in the pom.xml file.
 
- * clean: Removes previously compiled code and build artifacts to ensure a fresh build.
- * package: Compiles the code, runs tests, and packages the application into a JAR or WAR file as specified in the pom.xml file.
+4. **Run the Application:**
+
+     After the build process completes, the generated .jar file will be located in the target directory. To run the application, use:
+
+```bash
+java -jar target/spring-boot-web.jar
+```
+ The application will start and be accessible at http://localhost:8080.
+
+
+
+5. **Optional:**
+
+   For a visual reference, you can view the attached image:
+     <a>![image](https://github.com/user-attachments/assets/53aef5f0-5569-49ba-9bd9-498dc9d55a59)
+     <a/>
