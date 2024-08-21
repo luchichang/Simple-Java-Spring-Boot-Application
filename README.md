@@ -1,16 +1,3 @@
-`# Simple-Java-Spring-Boot-Application
-this Application is for practising the Deployment process for Java Spring Boot Based Application
-
-## TODO;
-  clone this Repository using   luchichang/Simple-Java-Spring-Boot-Application
-
-  this is Java Spring Boot Application so Apache Maven is the build tool for this application so install it * maven, is a build automation tool used primarily for java projects * 
-
-  run  " mvn clean Package " , this command will remove the previously compiled code and build artifacts. ensures fresh build, then compile the code execute tests and package the code into jar or war file which will be mentioned in the POM(Project Object Model).xml file in the maven configuration.
-  now created .jar file will be in the target directory now run this command to execute the application
-
-  java -jar target/spring-boot-web.jar , this command will execute the jar file and now our application is running in the localhost:8080 
-
 # Simple-Java-Spring-Boot-Application
 
 This application is designed for practicing the deployment process for Java Spring Boot-based applications.
