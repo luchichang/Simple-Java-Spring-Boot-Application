@@ -13,6 +13,11 @@ This application is designed for practicing the deployment process for Java Spri
 2. **Install Apache Maven:**
        Apache Maven is used as the build automation tool for this application. If Maven is not already installed, follow the official installation guide.
 
+      ```bash
+  sudo apt update -y
+  sudo apt install maven -y
+```
+
        Maven is a build automation tool primarily for Java projects.
 3. **Build the Application:**
 
